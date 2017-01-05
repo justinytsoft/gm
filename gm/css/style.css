@@ -1,0 +1,73 @@
+.pd10 {
+	padding: 10px;
+}
+.pd15 {
+	padding: 15px;
+}
+
+.mg10 {
+	margin: 10px;
+}
+
+.wdp100 {
+	width: 100%;
+}
+
+
+
+.whiteBg {
+	background-color: #FFFFFF;
+}
+
+
+
+
+
+
+
+.login input {
+	width: 80%;
+	padding:5px;
+}
+.login .mui-input-group .mui-input-row:nth-of-type(2) {
+    margin-top: 10px; 
+}
+.login .mui-input-group:after {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: 1px;
+	content: '';
+	-webkit-transform: scaleY(.5);
+	transform: scaleY(.5);
+	/*background-color: #c8c7cc*/
+}
+.login .mui-input-group .mui-input-row:after {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: 1px;
+	content: '';
+	-webkit-transform: scaleY(.5);
+	transform: scaleY(.5);
+	background-color: #c8c7cc
+}
+.login .mui-input-row label {
+	font-family: 'Helvetica Neue', Helvetica, sans-serif;
+	line-height: 1.1;
+	float: left;
+	width: 10%;
+	padding: 11px 15px
+}
+
+.login .mui-input-row label~input,
+.mui-input-row label~select,
+.mui-input-row label~textarea {
+	float: right;
+	width: 90%;
+	margin-bottom: 0;
+	padding-left: 0;
+	border: 0
+}
