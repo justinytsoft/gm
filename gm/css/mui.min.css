@@ -2713,7 +2713,7 @@ select:focus {
 
 .mui-checkbox input[type=checkbox]:checked:before,
 .mui-radio input[type=radio]:checked:before {
-	color: #007aff
+	color: #aaa
 }
 
 .mui-checkbox label.mui-disabled,
