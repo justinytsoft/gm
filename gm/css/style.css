@@ -1,6 +1,17 @@
 *{
 	font-size: 16px;
 }
+
+.fnts12 {
+	font-size: 12px;
+}
+.fnts14 {
+	font-size: 14px;
+}
+.fnts18 {
+	font-size: 18px;
+}
+
 .pd10 {
 	padding: 10px;
 }
@@ -13,22 +24,44 @@
 .pdt45 {
 	padding-top: 45px;
 }
+.pdtb6 {
+	padding: 6px 0;
+}
+.pdlr10 {
+	padding: 0 10px;
+}
+.pdl10{
+	padding-left: 10px;
+}
 
 .mg10 {
 	margin: 10px;
+}
+.mgt-55 {
+	margin-top: -55px;	
 }
 
 .wdp100 {
 	width: 100%;
 }
 
+.height20 {
+	height: 40px;
+}
+
 .cl-orange {
 	color:#FF5722;
+}
+.cl-red {
+	color:#CF2D28
 }
 
 .whiteBg {
 	background-color: #FFFFFF;
 }
+.grayBg {
+	background-color: #e0dddd;	
+}
 
 
 
@@ -51,6 +84,22 @@
 
 
 
+
+/* mui 资金页面*/
+.money .mui-btn-yellow {
+	color: #F3F3F3;
+	border: 1px solid #ff9200;
+	background-color: #ff9200
+}
+.money .mui-table-view-cell .mui-pull-left{
+	line-height: 45px;
+}
+.money .mui-table-view-cell:after {
+    left: 0px;
+}
+.money .mui-table-view:after {
+    background-color: none;
+}
 
 
 

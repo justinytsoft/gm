@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="../css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="../css/style.css" />
+	</head>
+
+	<body class="whiteBg login">
+		
+		<nav class="mui-bar mui-bar-tab">
+		    <a class="mui-tab-item mui-active">
+		        <span class="mui-icon mui-icon-paperplane"></span>
+		        <span class="mui-tab-label">资金</span>
+		    </a>
+		    <a class="mui-tab-item">
+		        <span class="mui-icon mui-icon-compose"></span>
+		        <span class="mui-tab-label">订单</span>
+		    </a>
+		    <a class="mui-tab-item">
+		        <span class="mui-icon mui-icon-home"></span>
+		        <span class="mui-tab-label">商户中心</span>
+		    </a>
+		</nav>
+		
+		<script src="../js/mui.min.js"></script>
+		<script type="text/javascript" src="../libs/h.min.js" ></script>
+		<script type="text/javascript" src="../js/util.js" ></script>
+		<script type="text/javascript">
+			mui.init({
+				subpages:[{
+			    	url:'money.html',
+			    	id:'money.html',
+			    	styles:{
+			        	top:'0px',//mui标题栏默认高度为45px；
+			        	bottom:'0px'//默认为0px，可不定义；
+			    	}
+			    }]
+			});
+		</script>
+	</body>
+
+</html>
