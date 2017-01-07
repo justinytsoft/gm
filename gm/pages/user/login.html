@@ -28,11 +28,11 @@
 				<form class="mui-input-group">
 				    <div class="mui-input-row">
 				        <span class="mui-icon mui-icon-phone"></span>
-				        <input type="text" class="mui-input-clear" placeholder="请输入手机号">
+				        <input id="username" type="text" class="mui-input-clear" placeholder="请输入手机号">
 				    </div>
 				    <div class="mui-input-row">
 				        <span class="mui-icon mui-icon-locked"></span>
-				        <input type="text" class="mui-input-clear" placeholder="请输入密码">
+				        <input id="password" type="text" class="mui-input-clear" placeholder="请输入密码">
 				    </div>
 				    <div class="pd10">
 					    <button type="button" class="mui-btn mui-btn-yellow mui-btn-block">登 录</button>
@@ -41,7 +41,7 @@
 				
 				<div class="mui-input-row mui-checkbox mui-left">
 					<label>同意《违约标准及违约责任约束》</label>
-				  	<input name="checkbox1" type="checkbox" >
+				  	<input id="agreement" value="false" type="checkbox" >
 				</div>
 			</div>
 			
@@ -54,7 +54,9 @@
 		</div>
 		
 		<script src="../../js/mui.min.js"></script>
+		<script type="text/javascript" src="../../libs/h.min.js" ></script>
 		<script type="text/javascript" src="../../js/util.js" ></script>
+		<script type="text/javascript" src="../../js/user/login.js" ></script>
 		<script type="text/javascript">
 			mui.init()
 		</script>
