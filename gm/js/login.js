@@ -32,7 +32,7 @@ mui.ready(function(){
 	    	mui.getJSON(ipAdd+"/datas/login.json",{},function(data){
 	  			if(data.username === username && data.password==password){
 	  				mui.openWindow({
-					    url:ipAdd+"/pages/index.html",
+					    url:ipAdd+"/index.html",
 					    id:"index.html",
 					    styles:{
 					      top:0,//新页面顶部位置

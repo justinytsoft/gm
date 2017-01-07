@@ -3,7 +3,7 @@ mui.ready(function() {
 	//mui初始化
 	mui.init();
 
-	var subpages = ["money.html", "order.html", "merchant_center.html"];
+	var subpages = ["pages/money.html", "pages/order.html", "pages/merchant_center.html"];
 	var subpage_style = {
 		top: "0px",
 		bottom: "51px"
@@ -31,7 +31,6 @@ mui.ready(function() {
 	//选项卡点击事件
 	mui('.mui-bar-tab').on('tap', 'a', function(e) {
 		var targetTab = this.getAttribute('href');
-		alert(targetTab == activeTab)
 		if(targetTab == activeTab) {
 			return;
 		}
