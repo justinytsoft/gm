@@ -1768,11 +1768,11 @@ input[type=submit]:enabled:active {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	height: 1px;
+	/*height: 1px;*/
 	content: '';
 	-webkit-transform: scaleY(.5);
 	transform: scaleY(.5);
-	background-color: #c8c7cc
+	/*background-color: #c8c7cc*/
 }
 
 .mui-table-view:before {
@@ -1884,11 +1884,11 @@ input[type=submit]:enabled:active {
 	right: 0;
 	bottom: 0;
 	left: 15px;
-	height: 1px;
+	/*height: 1px;*/
 	content: '';
 	-webkit-transform: scaleY(.5);
 	transform: scaleY(.5);
-	background-color: #c8c7cc
+	/*background-color: #c8c7cc*/
 }
 
 .mui-table-view-cell.mui-checkbox input[type=checkbox],
@@ -2971,7 +2971,7 @@ select:focus {
 }
 
 .mui-segmented-control-positive.mui-segmented-control-inverted .mui-control-item.mui-active {
-	color: #4cd964;
+	color: inherit;
 	border-bottom: 2px solid #4cd964;
 	background: 0 0
 }
@@ -3717,7 +3717,7 @@ body>.mui-progressbar {
 
 .mui-slider .mui-segmented-control.mui-segmented-control-inverted~.mui-slider-group .mui-slider-item {
 	border-top: 1px solid #c8c7cc;
-	border-bottom: 1px solid #c8c7cc
+	/*border-bottom: 1px solid #c8c7cc*/
 }
 
 .mui-slider .mui-slider-group {

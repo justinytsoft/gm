@@ -2,6 +2,17 @@
 	font-size: 16px;
 }
 
+/* 浮动 */
+.clr {
+	clear: both;
+}
+
+/* 边框 */
+.border-b1 {
+	border-bottom: 1px solid #d5d4d4;
+}
+
+/* 字体大小 */
 .fnts12 {
 	font-size: 12px;
 }
@@ -12,55 +23,96 @@
 	font-size: 18px;
 }
 
+/* padding */
 .pd10 {
 	padding: 10px;
 }
 .pd15 {
 	padding: 15px;
 }
+.pd20 {
+	padding: 20px;
+}
+
 .pdlr35 {
-	padding: 0 35px;
+	padding-left: 35px;
+	padding-right: 35px;
+}
+.pdlr10 {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.pdtb6 {
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+.pdtb20 {
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 .pdt45 {
 	padding-top: 45px;
 }
-.pdtb6 {
-	padding: 6px 0;
-}
-.pdlr10 {
-	padding: 0 10px;
-}
 .pdl10{
 	padding-left: 10px;
 }
+.pdb35 {
+	padding-bottom: 35px;
+}
 
+/* margin */
 .mg10 {
 	margin: 10px;
 }
 .mgt-55 {
 	margin-top: -55px;	
 }
+.mgt10 {
+	margin-top: 10px;
+}
+.mgb10 {
+	margin-bottom: 10px;
+}
+.mgr10 {
+	margin-right: 10px;
+}
+.mgl10 {
+	margin-left: 10px;
+}
 
+/* 宽度 */
 .wdp100 {
 	width: 100%;
 }
 
+/* 高度 */
 .height20 {
 	height: 40px;
 }
+.height100 {
+	height: 100px;
+}
 
+/* 字体颜色 */
 .cl-orange {
 	color:#FF5722;
 }
+.cl-depred {
+	color:#CF2D28;
+}
 .cl-red {
-	color:#CF2D28
+	color:#FF0000;
+}
+.cl-green {
+	color:#4CD964;
 }
 
+/* 背景颜色 */
 .whiteBg {
 	background-color: #FFFFFF;
 }
 .grayBg {
-	background-color: #e0dddd;	
+	background-color: rgb(246, 246, 246);	
 }
 
 
@@ -83,7 +135,24 @@
 
 
 
-
+/* mui 订单页面 */
+.order .mui-table-view-cell {
+    position: relative;
+    overflow: hidden;
+    padding: 11px 0; 
+    -webkit-touch-callout: none;
+}
+.order img{
+	widht:80px;
+	height:80px;
+}
+.order .detail{
+	line-height: 1.43;
+}
+.order .mui-btn {
+	width:100px;
+	height:40px;
+}
 
 /* mui 资金页面*/
 .money .mui-btn-yellow {
