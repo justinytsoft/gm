@@ -22,6 +22,12 @@
 .fnts18 {
 	font-size: 18px;
 }
+.fnts20 {
+	font-size: 20px;
+}
+.fnts30 {
+	font-size: 30px;
+}
 
 /* padding */
 .pd10 {
@@ -50,6 +56,10 @@
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
+.pdtb30 {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
 .pdt45 {
 	padding-top: 45px;
 }
@@ -59,10 +69,16 @@
 .pdb35 {
 	padding-bottom: 35px;
 }
+.pdb10 {
+	padding-bottom: 10px;
+}
 
 /* margin */
 .mg10 {
 	margin: 10px;
+}
+.mg20 {
+	margin: 20px;
 }
 .mgt-55 {
 	margin-top: -55px;	
@@ -106,6 +122,12 @@
 .cl-green {
 	color:#4CD964;
 }
+.cl-gray {
+	color:#9E9E9E;
+}
+.cl-yellow {
+	color: #ff9800;
+}
 
 /* 背景颜色 */
 .whiteBg {
@@ -114,6 +136,9 @@
 .grayBg {
 	background-color: rgb(246, 246, 246);	
 }
+.depGrayBg {
+	background-color: #e5e5e5;
+}
 
 
 
@@ -133,7 +158,10 @@
 
 
 
-
+/* 资金-商铺收入页面 */
+.money_store_revenue div{
+	line-height: 1.8;
+}
 
 /* mui 订单页面 */
 .order .mui-table-view-cell {
