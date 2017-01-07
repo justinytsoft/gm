@@ -1,5 +1,7 @@
 mui.ready(function(){
 	
+	mui.init();
+	
 	/**
 	 * 复选框改变事件
 	 */
