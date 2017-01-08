@@ -11,6 +11,9 @@
 .border-b1 {
 	border-bottom: 1px solid #d5d4d4;
 }
+.border-no {
+	border: none;
+}
 
 /* 字体大小 */
 .fnts12 {
@@ -30,6 +33,9 @@
 }
 
 /* padding */
+.pd5{
+	padding: 5px!important;
+}
 .pd10 {
 	padding: 10px;
 }
@@ -51,6 +57,10 @@
 .pdtb6 {
 	padding-top: 6px;
 	padding-bottom: 6px;
+}
+.pdtb15 {
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 .pdtb20 {
 	padding-top: 20px;
@@ -92,6 +102,12 @@
 .mgr10 {
 	margin-right: 10px;
 }
+.mgr20 {
+	margin-right: 20px;
+}
+.mgr100 {
+	margin-right: 100px;
+}
 .mgl10 {
 	margin-left: 10px;
 }
@@ -99,6 +115,9 @@
 /* 宽度 */
 .wdp100 {
 	width: 100%;
+}
+.wdp73 {
+	width: 73%!important;
 }
 
 /* 高度 */
@@ -128,6 +147,9 @@
 .cl-yellow {
 	color: #ff9800;
 }
+.cl-black {
+	color:#323232;
+}
 
 /* 背景颜色 */
 .whiteBg {
@@ -156,7 +178,13 @@
 
 
 
-
+/* 资金-提现页面 */
+.money_cash .mui-btn-block {
+	margin: 100px 0 0 10px;
+	height:40px;
+	width:95%;
+	padding: 7px;
+}
 
 /* 资金-商铺收入页面 */
 .money_store_revenue div{
