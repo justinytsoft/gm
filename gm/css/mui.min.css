@@ -1243,7 +1243,7 @@ input[type=submit]:enabled:active {
 	padding-right: 10px;
 	padding-left: 10px;
 	border-bottom: 0;
-	background-color: #f7f7f7;
+	background-color: rgb(255,180,0);
 	-webkit-box-shadow: 0 0 1px rgba(0, 0, 0, .85);
 	box-shadow: 0 0 1px rgba(0, 0, 0, .85);
 	-webkit-backface-visibility: hidden;
@@ -1352,11 +1352,12 @@ input[type=submit]:enabled:active {
 	vertical-align: middle;
 	white-space: nowrap;
 	text-overflow: ellipsis;
-	color: #929292
+	color: rgb(62,47,12);
 }
 
 .mui-bar-tab .mui-tab-item.mui-active {
-	color: #007aff
+	color: rgb(255,180,0);
+	background: rgb(62,47,12);
 }
 
 .mui-bar-tab .mui-tab-item .mui-icon {

@@ -83,6 +83,9 @@
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
+.pdt8{
+	padding-top: 8px;
+}
 .pdt45 {
 	padding-top: 45px;
 }
@@ -403,3 +406,5 @@
 	padding-left: 0;
 	border: 0
 }
+/*red-dote*/
+.red-dote {width: 6px;height: 6px;border-radius: 50%;display: inline-block;background: red;position: absolute;right: 10px;}

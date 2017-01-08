@@ -1,1 +1,111 @@
-null
+{
+  "pages/merchant_franchise.html": {
+    "href": "pages/merchant_franchise.html",
+    "resources": [
+      "css/mui.min.css",
+      "fonts/mui.ttf",
+      "css/style.css",
+      "js/mui.min.js",
+      "libs/h.min.js",
+      "js/util.js",
+      "images/bank-bg.jpg"
+    ],
+    "priority": 0
+  },
+  "pages/order.html": {
+    "href": "pages/order.html",
+    "resources": [
+      "css/mui.min.css",
+      "fonts/mui.ttf",
+      "css/style.css",
+      "js/mui.min.js",
+      "libs/h.min.js",
+      "js/util.js",
+      "js/order.js",
+      "images/product.png"
+    ],
+    "priority": 1
+  },
+  "pages/money.html": {
+    "href": "pages/money.html",
+    "resources": [
+      "css/mui.min.css",
+      "fonts/mui.ttf",
+      "css/style.css",
+      "js/mui.min.js",
+      "libs/h.min.js",
+      "libs/echarts-all.js",
+      "js/util.js",
+      "js/money.js"
+    ],
+    "priority": 2
+  },
+  "pages/linkman.html": {
+    "href": "pages/linkman.html",
+    "resources": [
+      "css/mui.min.css",
+      "fonts/mui.ttf",
+      "css/style.css",
+      "js/mui.min.js",
+      "libs/h.min.js",
+      "js/util.js"
+    ],
+    "priority": 3
+  },
+  "pages/linkman_idcard.html": {
+    "href": "pages/linkman_idcard.html",
+    "resources": [
+      "css/mui.min.css",
+      "fonts/mui.ttf",
+      "css/style.css",
+      "js/mui.min.js",
+      "libs/h.min.js",
+      "js/util.js"
+    ],
+    "priority": 4
+  },
+  "pages/merchant_center.html": {
+    "href": "pages/merchant_center.html",
+    "resources": [
+      "css/mui.min.css",
+      "fonts/mui.ttf",
+      "css/style.css",
+      "js/mui.min.js",
+      "libs/h.min.js",
+      "js/util.js",
+      "js/merchant_center.js",
+      "images/login-adv.png"
+    ],
+    "refer": [
+      "pages/linkman.html",
+      "pages/linkman_idcard.html"
+    ],
+    "priority": 3
+  },
+  "index.html": {
+    "href": "index.html",
+    "resources": [
+      "css/style.css",
+      "libs/h.min.js",
+      "js/util.js",
+      "js/index.js"
+    ],
+    "refer": [
+      "pages/order.html",
+      "pages/money.html",
+      "pages/merchant_center.html"
+    ],
+    "priority": 1
+  },
+  "login.html": {
+    "href": "login.html",
+    "resources": [
+      "datas/login.json"
+    ],
+    "refer": [
+      "pages/merchant_franchise.html",
+      "index.html"
+    ],
+    "priority": 0
+  }
+}

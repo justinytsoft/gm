@@ -18,6 +18,13 @@ mui.plusReady(function() {
 		var value = this.checked ? "true" : "false";
 		h(this).val(value);
 	});
+	
+	/**
+	 * 师傅加盟点击事件
+	 */
+	h("#join").tap(function(){
+		mui.openWindow(ipAdd + "/pages/merchant_franchise.html");
+	});
 
 	/**
 	 * 登录点击事件
