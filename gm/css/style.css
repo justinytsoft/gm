@@ -60,6 +60,10 @@
 	padding-top: 6px;
 	padding-bottom: 6px;
 }
+.pdtb10 {
+	padding-top: 10px;
+	padding-bottom: 7px;
+}
 .pdtb15 {
 	padding-top: 15px;
 	padding-bottom: 15px;
@@ -116,6 +120,10 @@
 .mgl10 {
 	margin-left: 10px;
 }
+.mgl50 {
+	margin-left: 50px;
+}
+
 
 /* 宽度 */
 .wdp100 {
@@ -192,10 +200,17 @@
 
 
 
-
+/**/
+.phone #verifycode{
+    margin-top: -10px;
+    height: 42px;
+    right: 10px;
+}
 
 /* 银行卡新增页面 */
-.bank_card_add input[type=text]{
+.bank_card_add input[type=text],
+.linkman input[type=text],
+.linkman_idcard input[type=text],{
 	width: 75%;	
 	margin-bottom: 0px;
 }
@@ -211,6 +226,9 @@
 
 /* 资金-提现页面 */
 .money_cash .mui-btn-block,
+.linkman_idcard .mui-btn-block,
+.phone .mui-btn-block,
+.address .mui-btn-block,
 .bank_card_add .mui-btn-block{
 	margin: 100px 0 0 10px;
 	height:40px;
