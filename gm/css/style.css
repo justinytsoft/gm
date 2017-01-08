@@ -105,6 +105,9 @@
 .mgt10 {
 	margin-top: 10px;
 }
+.mgt20 {
+	margin-top: 20px;
+}
 .mgb10 {
 	margin-bottom: 10px;
 }
@@ -119,6 +122,12 @@
 }
 .mgl10 {
 	margin-left: 10px;
+}
+.mgl20 {
+	margin-left: 20px;
+}
+.mgl40 {
+	margin-left: 40px;
 }
 .mgl50 {
 	margin-left: 50px;
@@ -137,6 +146,9 @@
 /* 高度 */
 .height20 {
 	height: 40px;
+}
+.height50 {
+	height: 70px;
 }
 .height100 {
 	height: 100px;
@@ -219,7 +231,8 @@
 }
 
 /* 银行卡列表页面 */
-.bank_card_list img {
+.bank_card_list img,
+.merchant_center img {
 	width:60px;
 	height:60px;
 }
