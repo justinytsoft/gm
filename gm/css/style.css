@@ -14,6 +14,9 @@
 .border-no {
 	border: none;
 }
+.border-dashed-2 {
+	border: 2px dashed #ffff00;
+}
 
 /* 字体大小 */
 .fnts12 {
@@ -45,7 +48,6 @@
 .pd20 {
 	padding: 20px;
 }
-
 .pdlr35 {
 	padding-left: 35px;
 	padding-right: 35px;
@@ -72,6 +74,9 @@
 }
 .pdt45 {
 	padding-top: 45px;
+}
+.pdt60 {
+	padding-top: 60px;
 }
 .pdl10{
 	padding-left: 10px;
@@ -119,6 +124,7 @@
 .wdp73 {
 	width: 73%!important;
 }
+.wdp65 {width: 65%!important;}
 
 /* 高度 */
 .height20 {
@@ -126,6 +132,9 @@
 }
 .height100 {
 	height: 100px;
+}
+.height150 {
+	height: 150px;
 }
 
 /* 字体颜色 */
@@ -147,8 +156,14 @@
 .cl-yellow {
 	color: #ff9800;
 }
+.cl-dep-yellow{
+	color: #ffff00;
+}
 .cl-black {
 	color:#323232;
+}
+.cl-white {
+	color:#ffffff;
 }
 
 /* 背景颜色 */
@@ -161,6 +176,14 @@
 .depGrayBg {
 	background-color: #e5e5e5;
 }
+.blackBg{
+	background-color: #242424;
+}
+
+/* 圆角 */
+.br10{
+	border-radius: 10px;
+}
 
 
 
@@ -171,15 +194,24 @@
 
 
 
+/* 银行卡新增页面 */
+.bank_card_add input[type=text]{
+	width: 75%;	
+	margin-bottom: 0px;
+}
+.bank_card_add label{
+	width:25%;
+}
 
-
-
-
-
-
+/* 银行卡列表页面 */
+.bank_card_list img {
+	width:60px;
+	height:60px;
+}
 
 /* 资金-提现页面 */
-.money_cash .mui-btn-block {
+.money_cash .mui-btn-block,
+.bank_card_add .mui-btn-block{
 	margin: 100px 0 0 10px;
 	height:40px;
 	width:95%;
