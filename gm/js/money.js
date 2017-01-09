@@ -2,6 +2,42 @@ mui.ready(function(){
 	
 	mui.init();
 	
+	//提现点击事件
+	h("#cash").tap(function(){
+		mui.openWindow({
+		    url:ipAdd+"/pages/money_cash.html",
+		    id:"money_cash.html",
+		    styles:{
+		      top:0,//新页面顶部位置
+		      bottom:0//新页面底部位置
+		    }
+		});
+	});
+	
+	//提现记录点击事件
+	h("#chshRecord").tap(function(){
+		mui.openWindow({
+		    url:ipAdd+"/pages/money_cash_recort.html",
+		    id:"money_cash_recort.html",
+		    styles:{
+		      top:0,//新页面顶部位置
+		      bottom:0//新页面底部位置
+		    }
+		});
+	});
+	
+	//店铺收入点击事件
+	h("#storeRevenue").tap(function(){
+		mui.openWindow({
+		    url:ipAdd+"/pages/money_store_revenue.html",
+		    id:"money_store_revenue.html",
+		    styles:{
+		      top:0,//新页面顶部位置
+		      bottom:0//新页面底部位置
+		    }
+		});
+	});
+	
 	// 基于准备好的dom，初始化echarts实例
 	var myChart = echarts.init(document.getElementById('main'));
 	
