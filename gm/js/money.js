@@ -7,8 +7,25 @@ mui.ready(function(){
 	
 	// 指定图表的配置项和数据
 	option = {
+		title: {
+			text:"9636.00",
+			subtext:"总金额",
+			top:"center",
+			left:"center",
+			itemGap:5,
+			textStyle:{
+				color:"#CF2D28",
+				fontSize:20
+			},
+			subtextStyle:{
+				color:"#323232",
+				fontSize:18
+			},
+		},
+		color:['#ffb400', '#2196f3', '#ffb400', '#546570'],
 	    tooltip: {
 	        trigger: 'item',
+	        confine: true,
 	        formatter: "{a} <br/>{b}: {c} ({d}%)"
 	    },
 	    legend: {
@@ -24,25 +41,22 @@ mui.ready(function(){
 	            avoidLabelOverlap: false,
 	            label: {
 	                normal: {
-	                    show: false,
-	                    position: 'center'
+	                    show: true,
+	                    position: "outside",
+	                    formatter: '{b} : {c}元'
 	                },
 	                emphasis: {
-	                    show: true,
-	                    textStyle: {
-	                        fontSize: '30',
-	                        fontWeight: 'bold'
-	                    }
+	                    show: false
 	                }
 	            },
 	            labelLine: {
 	                normal: {
-	                    show: false
+	                    show: true
 	                }
 	            },
 	            data:[
-	                {value:335, name:'可提现'},
-	                {value:1548, name:'结算中'}
+	                {value:2000, name:'可提现'},
+	                {value:7636, name:'结算中'}
 	            ]
 	        }
 	    ]
