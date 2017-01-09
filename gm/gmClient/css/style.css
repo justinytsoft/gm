@@ -1,0 +1,410 @@
+*{
+	font-size: 16px;
+}
+
+/* 浮动 */
+.clr {
+	clear: both;
+}
+
+/* 边框 */
+.border1 {
+	border: 1px solid #d5d4d4;
+}
+.border-b1 {
+	border-bottom: 1px solid #d5d4d4;
+}
+.border-no {
+	border: none;
+}
+.border-dashed-2 {
+	border: 2px dashed #ffff00;
+}
+.border-tb1 {
+	border-top: 1px solid #d5d4d4;
+	border-bottom: 1px solid #d5d4d4;
+}
+
+/* 字体大小 */
+.fnts12 {
+	font-size: 12px;
+}
+.fnts14 {
+	font-size: 14px;
+}
+.fnts18 {
+	font-size: 18px;
+}
+.fnts20 {
+	font-size: 20px;
+}
+.fnts30 {
+	font-size: 30px;
+}
+
+/* padding */
+.pd5{
+	padding: 5px!important;
+}
+.pd10 {
+	padding: 10px;
+}
+.pd15 {
+	padding: 15px;
+}
+.pd20 {
+	padding: 20px;
+}
+.pdlr35 {
+	padding-left: 35px;
+	padding-right: 35px;
+}
+.pdlr10 {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.pdtb6 {
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+.pdtb10 {
+	padding-top: 10px;
+	padding-bottom: 7px;
+}
+.pdtb15 {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.pdtb20 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.pdtb30 {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.pdt8{
+	padding-top: 8px;
+}
+.pdt45 {
+	padding-top: 45px;
+}
+.pdt60 {
+	padding-top: 60px;
+}
+.pdl10{
+	padding-left: 10px;
+}
+.pdb35 {
+	padding-bottom: 35px;
+}
+.pdb10 {
+	padding-bottom: 10px;
+}
+
+/* margin */
+.mg10 {
+	margin: 10px;
+}
+.mg20 {
+	margin: 20px;
+}
+.mgt-55 {
+	margin-top: -55px;	
+}
+.mgt10 {
+	margin-top: 10px;
+}
+.mgt20 {
+	margin-top: 20px;
+}
+.mgb10 {
+	margin-bottom: 10px;
+}
+.mgr10 {
+	margin-right: 10px;
+}
+.mgr20 {
+	margin-right: 20px;
+}
+.mgr100 {
+	margin-right: 100px;
+}
+.mgl10 {
+	margin-left: 10px;
+}
+.mgl20 {
+	margin-left: 20px;
+}
+.mgl40 {
+	margin-left: 40px;
+}
+.mgl50 {
+	margin-left: 50px;
+}
+
+
+/* 宽度 */
+.wdp100 {
+	width: 100%;
+}
+.wdp73 {
+	width: 73%!important;
+}
+.wdp65 {width: 65%!important;}
+
+/* 高度 */
+.height20 {
+	height: 40px;
+}
+.height50 {
+	height: 70px;
+}
+.height100 {
+	height: 100px;
+}
+.height150 {
+	height: 150px;
+}
+
+/* 字体颜色 */
+.cl-orange {
+	color:#FF5722;
+}
+.cl-depred {
+	color:#CF2D28;
+}
+.cl-red {
+	color:#FF0000;
+}
+.cl-green {
+	color:#4CD964;
+}
+.cl-gray {
+	color:#9E9E9E;
+}
+.cl-yellow {
+	color: #ff9800;
+}
+.cl-dep-yellow{
+	color: #ffff00;
+}
+.cl-black {
+	color:#323232;
+}
+.cl-white {
+	color:#ffffff;
+}
+
+/* 背景颜色 */
+.whiteBg {
+	background-color: #FFFFFF;
+}
+.grayBg {
+	background-color: rgb(246, 246, 246);	
+}
+.depGrayBg {
+	background-color: #e5e5e5;
+}
+.blackBg{
+	background-color: #242424;
+}
+
+/* 圆角 */
+.br10{
+	border-radius: 10px;
+}
+
+
+
+
+
+
+/* 店铺加盟页面 */
+.merchant_franchise .mui-table-view-cell > label{
+	margin-top:7px ;
+}
+.merchant_franchise .mui-radio > label{
+	padding-left: 40px;
+}
+.merchant_franchise .mui-radio input[type=radio] {
+    top: 8px;
+}
+.merchant_franchise input[type=text]{
+	padding :0 5px;
+}
+.merchant_franchise li{
+	padding : 5px 0 0 10px;
+}
+.merchant_franchise img{
+	width:45%;
+	height:120px;
+}
+.merchant_franchise textarea{
+	padding: 10px;
+	vertical-align: middle;
+}
+.merchant_franchise .mui-btn-block{
+	margin: 20px 0 0 0;
+	height:50px;
+	width:97%;
+	padding: 7px;
+}
+
+/* 手机号页面 */
+.phone #verifycode{
+    margin-top: -10px;
+    height: 42px;
+    right: 10px;
+}
+
+/* 银行卡新增页面 */
+.bank_card_add input[type=text],
+.linkman input[type=text],
+.linkman_idcard input[type=text],{
+	width: 75%;	
+	margin-bottom: 0px;
+}
+.bank_card_add label{
+	width:25%;
+}
+
+/* 银行卡列表页面 */
+.bank_card_list img,
+.merchant_center img {
+	width:60px;
+	height:60px;
+}
+
+/* 资金-提现页面 */
+.money_cash .mui-btn-block,
+.linkman_idcard .mui-btn-block,
+.phone .mui-btn-block,
+.address .mui-btn-block,
+.bank_card_add .mui-btn-block{
+	margin: 100px 0 0 10px;
+	height:40px;
+	width:95%;
+	padding: 7px;
+}
+
+/* 资金-商铺收入页面 */
+.money_store_revenue div{
+	line-height: 1.8;
+}
+
+/* mui 订单页面 */
+.order .mui-table-view-cell {
+    position: relative;
+    overflow: hidden;
+    padding: 11px 0; 
+    -webkit-touch-callout: none;
+}
+.order img{
+	widht:80px;
+	height:80px;
+}
+.order .detail{
+	line-height: 1.43;
+}
+.order .mui-btn {
+	width:100px;
+	height:40px;
+}
+
+/* mui 资金页面*/
+.money .mui-btn-yellow {
+	color: #F3F3F3;
+	border: 1px solid #ff9200;
+	background-color: #ff9200
+}
+.money .mui-table-view-cell .mui-pull-left{
+	line-height: 45px;
+}
+.money .mui-table-view-cell:after {
+    left: 0px;
+}
+.money .mui-table-view:after {
+    background-color: none;
+}
+
+
+
+/* mui 登录页面 */
+.login .mui-checkbox.mui-left input[type=checkbox],
+.mui-radio.mui-left input[type=radio] {
+	left: 10px
+}
+.login .mui-checkbox input[type=checkbox]:before,
+.mui-radio input[type=radio]:before {
+	font-family: Muiicons;
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 1;
+	text-decoration: none;
+	color: #aaa;
+	border-radius: 0;
+	background: 0 0;
+	-webkit-font-smoothing: antialiased
+}
+.login .mui-btn-block {
+	font-size: 16px;
+	display: block;
+	width: 100%;
+	height:48px;
+	margin-bottom: 10px;
+	margin-top: 25px;
+	padding: 12px 0
+}
+.login .mui-btn-yellow {
+	color: #fff;
+	border: 1px solid #FF5722;
+	background-color: #FF5722
+}
+.login input {
+	width: 80%;
+	padding:5px;
+}
+.login .mui-input-group .mui-input-row:nth-of-type(2) {
+    margin-top: 10px; 
+}
+.login .mui-input-group:after {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: 1px;
+	content: '';
+	-webkit-transform: scaleY(.5);
+	transform: scaleY(.5);
+	/*background-color: #c8c7cc*/
+}
+.login .mui-input-group .mui-input-row:after {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: 1px;
+	content: '';
+	-webkit-transform: scaleY(.5);
+	transform: scaleY(.5);
+	background-color: #c8c7cc
+}
+.login .mui-input-row label {
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 1.1;
+    float: left;
+    width: 100%;
+    padding: 11px 46px;
+}
+.login .mui-input-row label~input,
+.mui-input-row label~select,
+.mui-input-row label~textarea {
+	float: right;
+	width: 90%;
+	margin-bottom: 0;
+	padding-left: 0;
+	border: 0
+}
+/*red-dote*/
+.red-dote {width: 6px;height: 6px;border-radius: 50%;display: inline-block;background: red;position: absolute;right: 10px;}
