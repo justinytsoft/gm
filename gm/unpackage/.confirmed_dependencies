@@ -1,129 +1,129 @@
 {
-	"login.html": {
-		"resources": [
-			"images/login-adv.png",
-			"js/util.js",
-			"js/mui.min.js",
-			"fonts/mui.ttf",
-			"js/login.js",
-			"css/mui.min.css",
-			"libs/h.min.js",
-			"css/style.css",
-			"datas/login.json",
-			"css/iconfont/iconfont.css",
-			"css/iconfont/iconfont.woff",
-			"pages/merchant_franchise.html"
-		],
-		"refer": [
-			"pages/merchant_franchise.html",
-			"index.html"
-		]
-	},
-	"pages/merchant_franchise.html": {
-		"href": "pages/merchant_franchise.html",
-		"resources": [
-			"css/mui.min.css",
-			"css/style.css",
-			"js/mui.min.js",
-			"libs/h.min.js",
-			"js/util.js",
-			"images/bank-bg.jpg",
-			"js/merchant_franchise.js",
-			"js/common.js",
-			"login.html",
-			"js/immersed.js"
-		],
-		"refer": [
-			"login.html"
-		],
-		"priority": 0
-	},
-	"pages/order.html": {
-		"href": "pages/order.html",
-		"resources": [
-			"css/mui.min.css",
-			"css/style.css",
-			"js/mui.min.js",
-			"libs/h.min.js",
-			"js/util.js",
-			"js/order.js",
-			"images/product.png"
-		],
-		"refer": [],
-		"priority": 0
-	},
-	"pages/money.html": {
-		"href": "pages/money.html",
-		"resources": [
-			"css/mui.min.css",
-			"css/style.css",
-			"js/mui.min.js",
-			"libs/h.min.js",
-			"libs/echarts-all.js",
-			"js/util.js",
-			"js/money.js"
-		],
-		"refer": [],
-		"priority": 0
-	},
-	"pages/linkman.html": {
-		"href": "pages/linkman.html",
-		"resources": [
-			"css/mui.min.css",
-			"css/style.css",
-			"js/mui.min.js",
-			"libs/h.min.js",
-			"js/util.js"
-		],
-		"refer": [],
-		"priority": 0
-	},
-	"pages/linkman_idcard.html": {
-		"href": "pages/linkman_idcard.html",
-		"resources": [
-			"css/mui.min.css",
-			"css/style.css",
-			"js/mui.min.js",
-			"libs/h.min.js",
-			"js/util.js"
-		],
-		"refer": [],
-		"priority": 0
-	},
-	"pages/merchant_center.html": {
-		"href": "pages/merchant_center.html",
-		"resources": [
-			"css/mui.min.css",
-			"css/style.css",
-			"js/mui.min.js",
-			"libs/h.min.js",
-			"js/util.js",
-			"js/merchant_center.js",
-			"images/login-adv.png"
-		],
-		"refer": [
-			"pages/linkman.html",
-			"pages/linkman_idcard.html",
-			"pages/bank_card_add.html",
-			"pages/address.html"
-		],
-		"priority": 0
-	},
-	"index.html": {
-		"href": "index.html",
-		"resources": [
-			"css/mui.min.css",
-			"css/style.css",
-			"js/mui.min.js",
-			"libs/h.min.js",
-			"js/util.js",
-			"js/index.js"
-		],
-		"refer": [
-			"pages/order.html",
-			"pages/money.html",
-			"pages/merchant_center.html"
-		],
-		"priority": 0
-	}
+  "login.html": {
+    "resources": [
+      "images/login-adv.png",
+      "js/util.js",
+      "js/mui.min.js",
+      "fonts/mui.ttf",
+      "js/login.js",
+      "css/mui.min.css",
+      "libs/h.min.js",
+      "css/style.css",
+      "datas/login.json",
+      "css/iconfont/iconfont.css",
+      "css/iconfont/iconfont.woff",
+      "pages/merchant_franchise.html"
+    ],
+    "refer": [
+      "pages/merchant_franchise.html",
+      "index.html"
+    ]
+  },
+  "pages/merchant_franchise.html": {
+    "href": "pages/merchant_franchise.html",
+    "resources": [
+      "css/mui.min.css",
+      "css/style.css",
+      "js/mui.min.js",
+      "libs/h.min.js",
+      "js/util.js",
+      "images/bank-bg.jpg",
+      "js/merchant_franchise.js",
+      "js/common.js",
+      "login.html",
+      "js/immersed.js"
+    ],
+    "refer": [
+      "login.html"
+    ],
+    "priority": 0
+  },
+  "pages/order.html": {
+    "href": "pages/order.html",
+    "resources": [
+      "css/mui.min.css",
+      "css/style.css",
+      "js/mui.min.js",
+      "libs/h.min.js",
+      "js/util.js",
+      "js/order.js",
+      "images/product.png"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "pages/money.html": {
+    "href": "pages/money.html",
+    "resources": [
+      "css/mui.min.css",
+      "css/style.css",
+      "js/mui.min.js",
+      "libs/h.min.js",
+      "libs/echarts-all.js",
+      "js/util.js",
+      "js/money.js"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "pages/linkman.html": {
+    "href": "pages/linkman.html",
+    "resources": [
+      "css/mui.min.css",
+      "css/style.css",
+      "js/mui.min.js",
+      "libs/h.min.js",
+      "js/util.js"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "pages/linkman_idcard.html": {
+    "href": "pages/linkman_idcard.html",
+    "resources": [
+      "css/mui.min.css",
+      "css/style.css",
+      "js/mui.min.js",
+      "libs/h.min.js",
+      "js/util.js"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "pages/merchant_center.html": {
+    "href": "pages/merchant_center.html",
+    "resources": [
+      "css/mui.min.css",
+      "css/style.css",
+      "js/mui.min.js",
+      "libs/h.min.js",
+      "js/util.js",
+      "js/merchant_center.js",
+      "images/login-adv.png"
+    ],
+    "refer": [
+      "pages/linkman.html",
+      "pages/linkman_idcard.html",
+      "pages/bank_card_add.html",
+      "pages/address.html"
+    ],
+    "priority": 0
+  },
+  "index.html": {
+    "href": "index.html",
+    "resources": [
+      "css/mui.min.css",
+      "css/style.css",
+      "js/mui.min.js",
+      "libs/h.min.js",
+      "js/util.js",
+      "js/index.js"
+    ],
+    "refer": [
+      "pages/order.html",
+      "pages/money.html",
+      "pages/merchant_center.html"
+    ],
+    "priority": 0
+  }
 }

@@ -166,11 +166,8 @@
 					}
 				},
 				"android": {
-					"mdpi": "", /*必选，240x282，普通屏启动图片*/
-					"ldpi": "", /*必选，320x442，大屏启动图片*/
-					"hdpi": "", /*必选，480x762，高分屏启动图片*/
-					"xhdpi": "", /*必选，720x1242，720P高分屏启动图片*/
-					"xxhdpi": ""
+					 /*必选，240x282，普通屏启动图片*/
+					"ldpi": "C:/Users/justi/Desktop/start.png","hdpi":"C:/Users/justi/Desktop/start.png","mdpi":"C:/Users/justi/Desktop/start.png","xhdpi":"C:/Users/justi/Desktop/start.png","xxhdpi":"C:/Users/justi/Desktop/start.png"
 				}
 			}
 		}

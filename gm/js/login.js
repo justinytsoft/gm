@@ -23,7 +23,7 @@ mui.plusReady(function() {
 	 * 师傅加盟点击事件
 	 */
 	h("#join").tap(function(){
-		mui.openWindow(ipAdd + "/pages/merchant_franchise.html");
+		mui.openWindow("/pages/merchant_franchise.html");
 	});
 
 	/**
@@ -45,10 +45,10 @@ mui.plusReady(function() {
 			mui(this).button('loading');
 
 			//请求后台
-			mui.getJSON(ipAdd + "/datas/login.json", {}, function(data) {
-				if(data.username === username && data.password == password) {
+			//mui.getJSON("/datas/login.json", {}, function(data) {
+				if("admin" === username && "111111" == password) {
 					mui.openWindow({
-					    url:ipAdd+"/index.html",
+					    url:"/index.html",
 					    id:"index.html",
 					    styles:{
 					      top:0,//新页面顶部位置
@@ -61,7 +61,7 @@ mui.plusReady(function() {
 				}
 
 				mui(_this).button('reset');
-			});
+			//});
 		}
 	});
 });

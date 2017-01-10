@@ -5,7 +5,7 @@ mui.ready(function(){
 	//添加银行卡点击事件
 	h("#addBank").tap(function(){
 		mui.openWindow({
-		    url:ipAdd+"/pages/bank_card_add.html",
+		    url:"bank_card_add.html",
 		    id:"bank_card_add.html",
 		    styles:{
 		      top:0,//新页面顶部位置
