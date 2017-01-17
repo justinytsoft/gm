@@ -5,7 +5,7 @@
 		"iPad"
 	],
 	"id": "H53A6EF1F",/*必选，应用的标识*/
-	"name": "gm",/*必选，应用名称*/
+	"name": "好妈妈-商家端",/*必选，应用名称*/
 	"version": {
 		"name": "1.0",/*必选，版本名称*/
 		"code": ""
@@ -14,7 +14,7 @@
 	"icons": {
 		"72": "icon.png"
 	},
-	"fullscreen": true,
+	"fullscreen": false,
 	"launch_path": "login.html",/*必选，应用的入口页面，默认为根目录下的index.html；也可以是网络地址，网络地址必须以http://或https://开头*/
 	"developer": {
 		"email": "",/*可选，开发者名称*/
@@ -70,8 +70,8 @@
 	"plus": {
 		"popGesture": "close",/*设置应用默认侧滑返回关闭Webview窗口，none为无侧滑返回功能，hide为侧滑隐藏Webview窗口。参考ask.dcloud.net.cn/article/102*/
 		"splashscreen": {
-			"autoclose": false,/*如果为true，程序启动的图片可以自动关闭，如果为false，开发者需要手动关闭*/
-			"waiting": true
+			"autoclose": true,/*如果为true，程序启动的图片可以自动关闭，如果为false，开发者需要手动关闭*/
+			"waiting": false,"delay":"0"
 		},
 		"runmode": "normal",/*两个值，liberate或normal，前者在应用安装时释放资源，后者不需要释放资源*/
 		"signature": "Sk9JTiBVUyBtYWlsdG86aHIyMDEzQGRjbG91ZC5pbw==",/*可选，保留给应用签名，暂不使用*/
@@ -150,9 +150,9 @@
 			"splashscreen": {
 				"ios": {
 					"iphone": {
-						"default": "", /*必选，320x480，iPhone3启动图片*/
-						"retina35": "",/*必选，640x960，3.5英寸设备(iPhone4)启动图片*/
-						"retina40": ""
+						"default": "C:/Users/justi/Desktop/商家启动页.png", /*必选，320x480，iPhone3启动图片*/
+						"retina35": "C:/Users/justi/Desktop/商家启动页.png",/*必选，640x960，3.5英寸设备(iPhone4)启动图片*/
+						"retina40": "C:/Users/justi/Desktop/商家启动页.png","retina47":"C:/Users/justi/Desktop/商家启动页.png","retina55":"C:/Users/justi/Desktop/商家启动页.png","retina55l":"C:/Users/justi/Desktop/商家启动页.png"
 					},
 					"ipad": {
 						"portrait": "", /*可选，768x1004，需支持iPad时必选，iPad竖屏启动图片*/
@@ -167,7 +167,7 @@
 				},
 				"android": {
 					 /*必选，240x282，普通屏启动图片*/
-					"ldpi": "C:/Users/justi/Desktop/start.png","hdpi":"C:/Users/justi/Desktop/start.png","mdpi":"C:/Users/justi/Desktop/start.png","xhdpi":"C:/Users/justi/Desktop/start.png","xxhdpi":"C:/Users/justi/Desktop/start.png"
+					"ldpi": "C:/Users/justi/Desktop/商家启动页.png","hdpi":"C:/Users/justi/Desktop/商家启动页.png","mdpi":"C:/Users/justi/Desktop/商家启动页.png","xhdpi":"C:/Users/justi/Desktop/商家启动页.png","xxhdpi":"C:/Users/justi/Desktop/商家启动页.png"
 				}
 			}
 		}
