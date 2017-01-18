@@ -112,6 +112,9 @@
 .mgt-55 {
 	margin-top: -55px;	
 }
+.mgt6 {
+	margin-top: 6px;
+}
 .mgt10 {
 	margin-top: 10px;
 }
@@ -300,6 +303,9 @@
 }
 
 /* mui 订单页面 */
+.order #segmentedControl {
+    border-bottom: 1px solid #ece8e8;
+}
 .order .mui-table-view-cell {
     position: relative;
     overflow: hidden;

@@ -184,12 +184,14 @@
 					"css/style.css",
 					"libs/h.min.js",
 					"js/util.js",
-					"js/index.js"
+					"js/index.js",
+					"pages/money.html",
+					"css/iconfont/iconfont.css",
+					"css/iconfont/iconfont.woff"
 				],
 				"refer": [
 					"index-menu.html",
 					"pages/order.html",
-					"pages/money.html",
 					"pages/merchant_center.html"
 				],
 				"priority": 0
@@ -1083,9 +1085,11 @@
 					"libs/h.min.js",
 					"js/util.js",
 					"js/order.js",
-					"images/product.png"
+					"images/product.png",
+					"css/app.css"
 				],
-				"priority": 1
+				"priority": 1,
+				"refer": []
 			},
 			"pages/money.html": {
 				"href": "pages/money.html",
@@ -1097,9 +1101,12 @@
 					"libs/h.min.js",
 					"libs/echarts-all.js",
 					"js/util.js",
-					"js/money.js"
+					"js/money.js",
+					"libs/echarts.min.js",
+					"css/iconfont/iconfont.css"
 				],
-				"priority": 2
+				"priority": 2,
+				"refer": []
 			},
 			"pages/linkman.html": {
 				"href": "pages/linkman.html",
@@ -1141,15 +1148,54 @@
 					"pages/linkman.html",
 					"pages/linkman_idcard.html",
 					"pages/bank_card_add.html",
-					"pages/address.html"
+					"pages/address.html",
+					"pages/phone.html",
+					"pages/business_hours.html"
 				],
 				"priority": 3
+			},
+			"pages/phone.html": {
+				"resources": [
+					"js/util.js",
+					"js/mui.min.js",
+					"fonts/mui.ttf",
+					"css/mui.min.css",
+					"libs/h.min.js",
+					"css/style.css"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"pages/business_hours.html": {
+				"resources": [
+					"js/mui.picker.min.js",
+					"js/mui.min.js",
+					"js/util.js",
+					"css/app.css",
+					"css/mui.min.css",
+					"libs/h.min.js",
+					"css/style.css",
+					"css/mui.picker.min.css"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"pages/address.html": {
+				"resources": [
+					"js/util.js",
+					"js/mui.min.js",
+					"fonts/mui.ttf",
+					"css/mui.min.css",
+					"libs/h.min.js",
+					"css/style.css"
+				],
+				"refer": [],
+				"priority": 0
 			}
 		},
 		"idle": {
 			"resources": [
 				"pages/money_cash_recort.html",
-				"pages/phone.html",
 				"css/feedback.css",
 				"pages/money_cash.html",
 				"libs/vue.js",
@@ -1161,7 +1207,6 @@
 				"js/mui.listpicker.js",
 				"pages/setting_cash_pwd.html",
 				"images/bank.png",
-				"pages/business_hours.html",
 				"examples/feedback.html",
 				"pages/bank_card_list.html",
 				"css/mui.listpicker.css",
