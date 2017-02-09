@@ -417,7 +417,7 @@
 				                	<div class="clr"></div>
 				                	
 				                	<div class="pd10 mui-pull-right">
-				                		<button type="button" class="mui-btn">订单详情</button>
+				                		<button id="a" type="button" class="mui-btn">订单详情</button>
 				                	</div>
 				                </li>
 							</ul>
@@ -431,7 +431,7 @@
 		
 		<script>
 			mui.init({
-				swipeBack:true //启用右滑关闭功能
+
 			});
 			
 			(function($) {
@@ -442,10 +442,15 @@
 			
 			mui.ready(function(){
 				var height = (h.winInfo().height - 100) + "px";
-				h("#listContent").css({"height":height})
+				h("#listContent").css({"height":height});
+				
+				h(".mui-btn").each(function(obj){
+					h(obj).tap(function(){
+						var id = h(obj).attr("id");
+						alert(id);
+					});
+				});
 			});
 		</script>
-
 	</body>
-
 </html>

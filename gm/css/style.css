@@ -112,6 +112,9 @@
 .mgt-55 {
 	margin-top: -55px;	
 }
+.mgt4 {
+	margin-top: 4px;
+}
 .mgt6 {
 	margin-top: 6px;
 }
@@ -129,6 +132,9 @@
 }
 .mgb10 {
 	margin-bottom: 10px;
+}
+.mgr5 {
+	margin-right: 5px;
 }
 .mgr10 {
 	margin-right: 10px;
@@ -168,6 +174,9 @@
 }
 .height50 {
 	height: 70px;
+}
+.height60 {
+	height: 60px;
 }
 .height100 {
 	height: 100px;
@@ -226,8 +235,49 @@
 
 
 
-
-
+/* 订单详情页面 */
+.order_detail .mui-content * {
+	font-size: 14px;
+}
+.order_detail .mui-bar .mui-btn {
+    font-weight: 400;
+    position: relative;
+    z-index: 20;
+    top: 16px;
+    margin-top: 0;
+    padding: 6px 17px 5px;
+    margin: 0 10px;
+}
+.order_detail .order_info{
+	padding: 10px;
+	margin-top: 10px;
+}
+.order_detail .order_info{
+	height: 140px;
+}
+.order_detail .order_info>div{
+	margin-bottom: 5px;
+	color: #B6B6B6;
+}
+.order_detail .price{
+	height: 120px;
+}
+.order_detail .price>div span:first-child{
+	float: left;
+	clear: both;
+	margin-bottom: 5px;
+}
+.order_detail .price>div span:last-child{
+	float: right;
+}
+.order_detail .list {
+	padding: 6px 10px 0px 10px;
+	margin-bottom: 5px;
+}
+.order_detail .list img {
+	width:100px;
+	height: 100px;
+}
 
 /* 店铺加盟页面 */
 .merchant_franchise .mui-table-view-cell > label{
